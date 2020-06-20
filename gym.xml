@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gimnasios>
+
+  <gimnasio>
+    <nombre>Bulldog Gym</nombre>
+    <direccion>Garcia Moreno</direccion>
+    <precio>30.00</precio>
+    <horario>lun-vier 06:30-13:00, 15:00-22:00</horario>
+    <actividades>Aerobicos, Bailoterapia, Fisicoculturismo, Taebo,</actividades>
+  </gimnasio>
+
+  <gimnasio>
+    <nombre>Oxygen Gym</nombre>
+    <direccion>Nueva York y Pichincha</direccion>
+    <precio>29.99</precio>
+    <horario>lun-vier 06:00-22:00</horario>
+    <actividades>Bailoterapia, Preparación Física Fitness, Fisicoculturismo</actividades>
+  </gimnasio>
+
+  <gimnasio>
+    <nombre>Gimnasio Curves</nombre>
+    <direccion>Av. Jose Veloz y Vicente Rocafuerte</direccion>
+    <precio>20.00</precio>
+    <horario>lun-sab 08:00-21:00</horario>
+    <actividades>Aerobicos, Bailoterapia</actividades>
+  </gimnasio>
+
+  <gimnasio>
+    <nombre>Planet Gym</nombre>
+    <direccion>Comandante Jimenez y Venezuela</direccion>
+    <precio>15.00</precio>
+    <horario>lun-sab 08:00-22:00</horario>
+    <actividades>Entrenamiento con maquinas</actividades>
+  </gimnasio>
+
+  <gimnasio>
+    <nombre>Lomas Gym</nombre>
+    <direccion>Av. Jose Veloz</direccion>
+    <precio>20.00</precio>
+    <horario>lun-vier 05:00-13:00, 15:00-22:00</horario>
+    <actividades>Spinning, Maquinaria, Bailoterapia, TRX, Aeróbicos</actividades>
+  </gimnasio>
+
+  <gimnasio>
+    <nombre>Luna's Gym</nombre>
+    <direccion>Av Daniel León Borja</direccion>
+    <precio>30.00</precio>
+    <horario>lun-vier 07:00-13:00, 15:00-23:00</horario>
+    <actividades>Spinning, Maquinaria, Bailoterapia, Fisicoculturismo</actividades>
+  </gimnasio>
+
+</gimnasios>
