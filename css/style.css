@@ -56,7 +56,7 @@ header {
 header .container {
 	-webkit-display: flex;
 	display: flex;
-	justify-content: end;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -76,7 +76,7 @@ header .logo a span {
 
 header .nav {
 	position: fixed;
-	background-color: #c11325;
+	background-color: #000000;
 	width: 280px;
 	top: 0;
 	right: 0;
@@ -108,7 +108,7 @@ header .nav ul li a {
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 400;
-	color: #ffffff;
+	color: red;
 	display: block;
 	position: relative;
 	padding: 10px 30px;
@@ -135,7 +135,7 @@ header .nav ul li a::before {
 	top: 0px;
 	height: 100%;
 	width: 0px;
-	background-color: #000000;
+	background-color: red;
 	opacity: .2;
 	-webkit-transition: width .5s ease;
 	transition: width .5s ease;
@@ -196,12 +196,21 @@ header .ham-burger.active span:nth-child(2) {
 	position: relative;
 }
 
+
+.home .homh1 {
+	padding-bottom: 20px;
+}
+
+.home .homh2 {
+	padding-bottom: 200px;
+}
+
 .home .go-down {
 	position: absolute;
 	bottom: 50px;
-	width: 26px;
-	height: 40px;
-	border: 1px solid #ffffff;
+	width: 30px;
+	height: 42px;
+	border: 2px solid #ffffff;
 	display: block;
 	border-radius: 4px;
 	text-align: center;
@@ -258,7 +267,7 @@ header .ham-burger.active span:nth-child(2) {
 }
 
 
-/*About section*/
+/*Info section*/
 
 .about {
 	padding: 80px 0px;
@@ -280,8 +289,7 @@ header .ham-burger.active span:nth-child(2) {
 .about .content .box .inner {
 	border-radius: 19px;
 	background: linear-gradient(145deg, #1f1f1f, #242424);
-	box-shadow: 5px 5px 10px #1d1d1d,
-		-5px -5px 10px #272727;
+	box-shadow: 5px 5px 10px #1d1d1d;
 }
 
 .about .content .box:nth-child(2) .inner {
@@ -307,12 +315,12 @@ header .ham-burger.active span:nth-child(2) {
 }
 
 .about .content .box .inner .text p {
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 20px;
 	color: #ffffff;
 	text-align: center;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 
