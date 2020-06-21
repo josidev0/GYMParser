@@ -1,18 +1,18 @@
 $(document).ready(function () {
   // Llamada función de menú de show food
-  showFoodMenu();
+  showGymMenu();
 });
 
 // Lectura de datos de gym.xml usando Jquery | AJAX
 
-function showFoodMenu() {
+function showGymMenu() {
   $.ajax({
     type: "GET",
     url: "./gym.xml",
     dataType: "xml",
 
     error: function (e) {
-      alert("A ocurrido un error procesando el archivo XML");
+      alert("Error procesando el archivo XML");
       console.log("Lectura de XML fallida: ", e);
     },
 
@@ -25,8 +25,6 @@ function showFoodMenu() {
         .find("gimnasio")
         .each(function () {
           var _nombre = $(this).find("nombre").text();
-          console.log(_nombre);
-
           var _precio = $(this).find("precio").text();
           var _direccion = $(this).find("direccion").text();
           var _horario = $(this).find("horario").text();
@@ -35,35 +33,35 @@ function showFoodMenu() {
           // Agregar el contenido a HTML
           $(".xmldata").append(
             "<li>" +
-              `<font color="red" face="Comic Sans MS,arial,verdana">Nombre: </font>
+              `<font color="red" >Nombre: </font>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` +
               _nombre +
               "</li>"
           );
           $(".xmldata").append(
             "<li>" +
-              `<font color="red" face="Comic Sans MS,arial,verdana">Precio: </font>
+              `<font color="red" >Precio: </font>
                &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; <span> $ </span> ` +
               _precio +
               "</li>"
           );
           $(".xmldata").append(
             "<li>" +
-              `<font color="red" face="Comic Sans MS,arial,verdana">Dirección: </font> 
+              `<font color="red" >Dirección: </font> 
               &nbsp&nbsp;&nbsp;&nbsp;` +
               _direccion +
               "</li>"
           );
           $(".xmldata").append(
             "<li>" +
-              `<font color="red" face="Comic Sans MS,arial,verdana">Horario: </font>
+              `<font color="red" >Horario: </font>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` +
               _horario +
               "</li>"
           );
           $(".xmldata").append(
             "<li>" +
-              `<font color="red" face="Comic Sans MS,arial,verdana">Actividades: </font>
+              `<font color="red" >Actividades: </font>
                &nbsp;` +
               _actividades +
               "</li>"
