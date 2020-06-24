@@ -29,6 +29,15 @@ function showGymMenu() {
           var _direccion = $(this).find("direccion").text();
           var _horario = $(this).find("horario").text();
           var _actividades = $(this).find("actividades").text();
+        
+        //Salida a consola
+        console.log(
+          _nombre
+          _precio
+          _direccion
+          _horario
+          _actividades
+        )
 
           // Agregar el contenido a HTML
           $(".xmldata").append(
