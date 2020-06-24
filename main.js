@@ -32,11 +32,12 @@ function showGymMenu() {
         
         //Salida a consola
         console.log(
-          _nombre
-          _precio
-          _direccion
-          _horario
-          _actividades
+          "Nombre: " + _nombre +
+          "Precio: " + _precio +
+          "Dirección: " + _direccion +
+          "Horario: " + _horario +
+          "Actividades: " + _actividades
+      
         )
 
           // Agregar el contenido a HTML
