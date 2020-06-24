@@ -33,10 +33,10 @@ function showGymMenu() {
         //Salida a consola
         console.log(
           "Nombre: " + _nombre +
-          "Precio: " + _precio +
-          "Dirección: " + _direccion +
-          "Horario: " + _horario +
-          "Actividades: " + _actividades
+          "\nPrecio: " + _precio +
+          "\nDirección: " + _direccion +
+          "\nHorario: " + _horario +
+          "\nActividades: " + _actividades
       
         )
 
